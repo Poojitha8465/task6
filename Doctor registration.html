@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Doctor registration</title>
+</head>
+
+<body >
+    <header> 
+        <font color="orange">
+        <center>
+          <h1>   <b>Apollo Hospitals</b></h1>
+        </center>
+    </font>
+       <center>
+        <a href="Home.html">About Apollo</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Branches.html">Apollo Branches</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Services.html">Apollo Services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Cotact.html">Apollo Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Doctors.html">Apollo Doctors</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Labs.html">Apollo Labs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Doctor login.html">Doctor Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Doctor registration</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Patient Login.html">Patient Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Patient Registration.html">Patient Registration</a>
+    </center>
+    </header>
+        <hr>
+    <caption>Doctor Registration</caption>
+    <form method="post" action="server1" name="registration form">
+        <table cellpadding="3px" cellspacing="2px">
+            <tr>
+                <td><label for="fname">First Name :</label><br>
+                    <input type="text" id="fname" name="fname">
+                </td>
+                <td><label for="lname">Last Name :</label><br>
+                    <input type="text" id="lname" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="uname">Username :</label><br>
+                    <input type="text" id="uname" name="uname">
+                </td>
+                <td><label for="pw">Password :</label><br>
+                    <input type="password" id="pw" name="pw">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">EmailId :</label><br>
+                    <input type="email" id="email" name="email">
+                </td>
+                <td><label for="mn">Mobile no :</label><br>
+                    <input type="number" id="mn" name="mn">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Specalization in:</label><br>
+                    <select id="specialization" name="specialization">
+                        <option value="specalization">Please select a specalist</option>
+                        <option value="specalization">Cardiologist</option>
+                        <option value="specalization">Audiologist</option>
+                        <option value="specalization">Dentist</option>
+                        <option value="specalization">Ent Surgon</option>
+                        <option value="specalization">Radiologist</option>
+
+                    </select>
+                </td>
+                <td><label for="gender">Gender</label><br>
+                    <select id="gender" name="gender">
+                        <option value="gender">Please select agender</option>
+                        <option value="gender">Male</option>
+                        <option value="gender">Female</option>
+                        <option value="gender">Others</option>
+
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>State</label><br>
+                    <select id="state" name="state">
+                        <option value="state">Please select a state</option>
+                        <option value="state">Telangana</option>
+                        <option value="state">Andhra Pradesh</option>
+                        <option value="state">Karnataka</option>
+                    </select>
+                </td>
+                <td>
+                    <label>City</label><br>
+                    <select id="city" name="city">
+                        <option value="city">Please select a city</option>
+                        <option value="city">Hyderabad</option>
+                        <option value="city">Warangal</option>
+                        <option value="city">karimnagar</option>
+
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address">Address :</label><br>
+                <textarea id="address" name="address"></textarea>
+                </td>
+                <td>
+                    <label>Code</label><br>
+                    <select id="code" name="code">
+                        <option value="code">Please select a code</option>
+                        <option value="code">DC01</option>
+                        <option value="code">DC02</option>
+                        <option value="code">DC04</option>
+                        
+                         
+                    </select>
+                </td>
+                
+                    
+                
+            </tr>
+            <tr align="right">
+                <td></td>
+                <td>
+                  <input type="submit" value="  SUBMIT  ">  
+                  
+                </td>
+              </tr>
+        </table>
+        <hr>
+        <footer>
+            <center>
+                <font color="skyblue" size="1">copyright@360Digirii</font>
+            </center>
+        </footer>
+    </form>
+</body>
+
+</html>

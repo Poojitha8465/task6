@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patient Registration</title>
+</head>
+
+<body>
+    <header> 
+        <font color="orange">
+        <center>
+          <h1>   <b>Apollo Hospitals</b></h1>
+        </center>
+    </font>
+       <center>
+        <a href="Home.html">About Apollo</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Branches.html">Apollo Branches</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Services.html">Apollo Services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Cotact.html">Apollo Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Doctors.html">Apollo Doctors</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Labs.html">Apollo Labs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Doctor login.html">Doctor Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Doctor registration.html">Doctor registration</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Patient Login.html">Patient Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Patient Registration</a>
+    </center>
+    </header>
+        <hr>
+    
+    <form method="post" action="server1" name="registration form">
+        <table align="center" cellspacing="3px" cellpadding="2px">
+            <h3 align="center"><b>Patient Registration Form</b></h3>
+            <tr>
+                <td>
+                    <label>Patient's Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name" placeholder="First" required>
+                    <input type="text" name="name1" id="name1" placeholder="Last" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+                <td>
+                    <input type="radio" value="Male" name="mode" id="mode1"> Male
+                    <input type="radio" value="Female" name="mode" id="mode2"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Phone</label>
+                </td>
+                <td>
+                    <input type="number" name="phone" id="phone" placeholder="### ### ####" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" name="birth" id="birth" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Marital Status</label>
+                </td>
+                <td>
+                    <input type="radio" value="Single" name="mode" id="mode2"> Single
+                    <input type="radio" value="Married" name="mode" id="mode3"> Married
+                    <input type="radio" value="Divorced" name="mode" id="mode4"> Divorced
+                    <input type="radio" value="Widow" name="mode" id="mode5"> Widow
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Patient's Address</label>
+                </td>
+                <td>
+                    <input type="text" name="address" id="address" placeholder="Street Address" required>
+                    <br>
+                    <input type="text" name="city" id="city" placeholder="City" required>
+                    <input type="text" name="state" id="state" placeholder="State" required>
+                    <br>
+                    <input type="number" name="pin" id="pin" placeholder="Postal/Zip Code" required>
+                    <select name="country" id="country">
+                        <option>country</option>
+                        <option value="Australia">Australia</option>
+                        <option value="USA">USA</option>
+                        <option value="India">India</option>
+                        <option value="Japan">Japan</option>
+                        <option value="France">France</option>
+                        <option value="ukraine">ukraine</option>
+                        <option value="England">England</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Maxico">Maxico</option>
+                        <option value="Korea">Korea</option>
+                        <option value="Pakistan">Pakistan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Insurance name</label></td>
+                <td><input type="text" id="in" name="iname"></td>
+            </tr>
+            <tr>
+                <td><label>Past medical History</label>
+                </td>
+
+
+                <td><input type="checkbox" id="1" name="pmh"><label>Anemia</label> <br>
+                    <input type="checkbox" id="2" name="pmh"><label>Asthma</label><br>
+                    <input type="checkbox" id="3" name="pmh"><label>Bronchitis</label><br>
+                    <input type="checkbox" id="4" name="pmh"><label>Chicken fox</label><br>
+                    <input type="checkbox" id="5" name="pmh"><label>Diabetes</label><br>
+                    <input type="checkbox" id="6" name="pmh"><label>Pneumonia</label><br>
+                    <input type="checkbox" id="7" name="pmh"><label>Thyroid Disease</label><br>
+                    <input type="checkbox" id="8" name="pmh"><label>Ulcer</label><br>
+                    <input type="checkbox" id="9" name="pmh"><label>Other</label>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register">
+
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <footer>
+            <center>
+                <font color="skyblue" size="1">copyright@360Digirii</font>
+            </center>
+        </footer>
+    </form>
+
+
+
+</body>
+
+</html>
